@@ -83,7 +83,7 @@ Google Sheets datastore
 
 - `Code.gs` — datastore setup, API methods, calculations, Drive and Gmail logic
 - `Index.html` — responsive employee web app
-- `Admin.html` — optional Sheet-sidebar uploader
+- `Admin.html` — fallback employee invoice uploader that stores invoices in fleet-specific Drive folders and prepares the related Gmail draft
 - `appsscript.json` — Apps Script manifest
 
 ## Tech stack
