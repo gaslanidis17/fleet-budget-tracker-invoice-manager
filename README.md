@@ -6,6 +6,12 @@ The web app is the actual product. Google Sheets works as the backend, while App
 
 > **Portfolio disclaimer:** all fleets, countries, targets, budgets, contacts, orders, emissions figures and invoice records in this project are fabricated. There is no employer data, production credential or real invoice anywhere in this repo.
 
+## Development approach
+
+I built this project through AI-assisted development using Claude and Claude Code agents in Cursor. I defined the business problem, user flow, application logic and validation criteria, then used the agents to accelerate implementation, debugging, testing and documentation.
+
+AI worked as a development multiplier, but I remained responsible for the requirements, decisions, review and final testing of the application.
+
 ## Live demo
 
 [Open the Fleet Budget Tracker & Invoice Manager](https://script.google.com/macros/s/AKfycbxmWk_dUmkK7xe9WsJWvMlKRuxlU8fqBxqZoiiCNasnCw4KR2Exg7Snc7mZXXn1bTcZVQ/exec)
