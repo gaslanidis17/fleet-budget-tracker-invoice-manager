@@ -49,16 +49,17 @@ For this project, a green order means an order completed with a bicycle, e-bike,
 
 ## Invoice workflow
 
-In internal mode, an employee clicks **Upload invoice** on the relevant fleet, enters the period and amount, then uploads the PDF. Apps Script:
+In a normal internal setup, an employee uploads an invoice from the relevant fleet row. The application then:
 
-1. validates the invoice;
-2. creates or finds the fleet's Drive folder;
-3. renames the PDF using the exact upload timestamp;
-4. adds the invoice to the register;
-5. optionally prepares a Gmail draft with the invoice attached.
+1. validates the invoice details and PDF file;
+2. creates or finds the correct fleet-specific Google Drive folder;
+3. renames and stores the invoice using a consistent timestamped naming convention;
+4. records the invoice in the tracking register;
+5. creates a Gmail draft addressed to the company’s designated invoice-processing mailbox, with the invoice attached and the relevant fleet, period and amount details included.
 
-Nothing is ever sent automatically. A person still checks the recipient, amount and attachment before sending.
+The email is created as a draft rather than sent automatically, so an employee can review the recipient, amount, period and attachment before sending it.
 
+In the public portfolio demo, the same workflow is simulated safely. No files are written to Google Drive and no Gmail drafts are created.
 ## Architecture
 
 ```text
