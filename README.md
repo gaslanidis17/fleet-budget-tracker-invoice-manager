@@ -12,6 +12,19 @@ I built this project through AI-assisted development using Claude and Claude Cod
 
 AI worked as a development multiplier, but I remained responsible for the requirements, decisions, review and final testing of the application.
 
+## Intended business impact
+
+This workflow is designed to connect KPI monitoring, incentive budgeting and invoice administration in one operational interface.
+
+The intended benefits include:
+
+- less manual spreadsheet work;
+- clearer budget visibility;
+- consistent target and reward calculations;
+- faster invoice preparation;
+- standardised Drive documentation;
+- human review before financial communication is sent.
+
 ## Live demo
 
 [Open the Fleet Budget Tracker & Invoice Manager](https://script.google.com/macros/s/AKfycbxmWk_dUmkK7xe9WsJWvMlKRuxlU8fqBxqZoiiCNasnCw4KR2Exg7Snc7mZXXn1bTcZVQ/exec)
