@@ -12,12 +12,23 @@ The public version is a safe demo. You can explore the dashboard and go through 
 
 ## Preview
 
-Add screenshots here once they are ready:
+### Dashboard overview
 
-```markdown
 ![Dashboard overview](screenshots/dashboard-overview.png)
-![Invoice workflow](screenshots/invoice-workflow.png)
-```
+
+The main dashboard brings together the annual budget, rewards paid, remaining budget, sustainability KPIs and recent trends in one view.
+
+### Fleet progress
+
+![Fleet progress](screenshots/fleet-progress.png)
+
+The fleet table shows current orders, adaptive targets, expected rewards, performance status and the invoice action for each fleet.
+
+### Invoice workflow
+
+![Invoice upload workflow](screenshots/invoice-upload-workflow.png)
+
+From the relevant fleet row, an employee can add the invoice period, amount, PDF and an optional note. In a normal internal setup, the file is stored in the correct fleet Drive folder and a Gmail draft is prepared for review.
 
 ## Why I built it
 
