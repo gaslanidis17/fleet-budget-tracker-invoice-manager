@@ -32,7 +32,7 @@ The demo deliberately keeps the stack small, but the dashboard logic is designed
 
 ## What it tracks
 
-- country CO2e emissions per delivery
+- country CO2 emissions per delivery
 - country green-vehicle share
 - country green-order share
 - interactive share-progression and CO2e-per-delivery charts with a trailing eight-month view, even in January
